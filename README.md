@@ -8,7 +8,7 @@
 <body>
   <!-- Header -->
   <header>
-    <h1 class="logo">My Shoo</h1
+    <h1 class="logo">My Shop</h1
 
   <!-- About -->
   <section id="about" class="section" 
