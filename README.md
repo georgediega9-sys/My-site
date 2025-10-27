@@ -9,20 +9,8 @@
 <body>
   <!-- Header -->
   <header>
-    <h1 class="logo">🎓 MyPortfolioStore</h1>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#shop">Shop</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
-
-  <!-- Hero Section -->
-  <section class="hero">
-    <div class="hero-text">
-      <h2>Hi, I'm <span>[Your Name]</span></h2>
-      <p>A passionate student developer who creates, learns, and sells digital goods online.</p>
+    <h1 class="logo">🎓 MyPortfolioStore</h1
+      
       <a href="#shop" class="btn">Visit My Store</a>
     </div>
   </section>
