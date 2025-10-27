@@ -12,10 +12,7 @@
     <h1 class="logo">🎓 MyPortfolioStore</h1
 
   <!-- About -->
-  <section id="about" class="section">
-    <h2>About Me</h2>
-    <p>
-      I'm a student interested in technology, design, and business. 
+  <section id="about" class="section" 
       I build websites, digital tools, and creative products. 
       This portfolio showcases my work and the items I sell online.
     </p>
