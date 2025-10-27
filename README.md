@@ -10,10 +10,6 @@
   <!-- Header -->
   <header>
     <h1 class="logo">🎓 MyPortfolioStore</h1
-      
-      <a href="#shop" class="btn">Visit My Store</a>
-    </div>
-  </section>
 
   <!-- About -->
   <section id="about" class="section">
