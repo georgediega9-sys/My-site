@@ -61,7 +61,7 @@
   <!-- Contact -->
   <section id="contact" class="section">
     <h2>Contact Me</h2>
-    <p>📧 Email: <a href="mailto:you@example.com">you@example.com</a></p>
+    <p>📧 Email: <a href="mailto:georgediega9@gmail.com>you@example.com</a></p>
     <p>🌐 Instagram: <a href="#">@yourhandle</a></p>
   </section>
 
