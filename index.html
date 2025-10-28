@@ -17,6 +17,23 @@
       padding: 20px;
       text-align: center;
     }
+
+    /* Shopee button styling */
+    .shopee-button {
+      display: inline-block;
+      background-color: #ff5722;
+      color: white;
+      padding: 12px 24px;
+      margin-top: 15px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+    .shopee-button:hover {
+      background-color: #e64a19;
+    }
+
     .container {
       display: flex;
       flex-wrap: wrap;
@@ -63,6 +80,7 @@
     button:hover {
       background-color: #219150;
     }
+
     footer {
       text-align: center;
       background-color: #222;
@@ -77,19 +95,21 @@
   <header>
     <h1>Welcome to My Shop</h1>
     <p>Find the best deals on your favorite products!</p>
+    <!-- Shopee Button -->
+    <a href="https://shopee.com" target="_blank" class="shopee-button">Visit Our Shopee Store</a>
   </header>
 
   <div class="container">
     <div class="product">
-      <img src="1.jpg" alt="Product 1">
+      <img src="https://via.placeholder.com/250x200" alt="Product 1">
       <h3>Product 1</h3>
       <p>Short description of the product.</p>
       <div class="price">$19.99</div>
-      <button><a href= "https://shopee.ph/product/79488353/6171693174>Add to Cart</a></button>
+      <button>Add to Cart</button>
     </div>
 
     <div class="product">
-      <img src="2.jpg" alt="Product 2">
+      <img src="https://via.placeholder.com/250x200" alt="Product 2">
       <h3>Product 2</h3>
       <p>Another awesome item for your collection.</p>
       <div class="price">$29.99</div>
