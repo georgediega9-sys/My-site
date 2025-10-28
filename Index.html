@@ -3,64 +3,111 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Online Shop</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    header {
+      background-color: #222;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+    .product {
+      background-color: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      margin: 10px;
+      width: 250px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+    .product:hover {
+      transform: scale(1.03);
+    }
+    .product img {
+      width: 100%;
+      border-radius: 8px 8px 0 0;
+    }
+    .product h3 {
+      margin: 10px 0;
+    }
+    .product p {
+      color: #555;
+    }
+    .price {
+      font-size: 18px;
+      color: #27ae60;
+      margin-bottom: 10px;
+    }
+    button {
+      background-color: #27ae60;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      border-radius: 5px;
+      margin-bottom: 15px;
+    }
+    button:hover {
+      background-color: #219150;
+    }
+    footer {
+      text-align: center;
+      background-color: #222;
+      color: white;
+      padding: 10px;
+      margin-top: 30px;
+    }
+  </style>
 </head>
 <body>
-  <!-- Header -->
+
   <header>
-    <h1 class="logo">My Shop</h1
-  <!-- About -->
-  <section id="about" class="section" 
-      I build websites, digital tools, and creative products. 
-      This portfolio showcases my work and the items I sell online.
-    </p>
-  </section>
-  <!-- Projects -->
-  <section id="projects" class="section">
-    <h2>My Projects</h2>
-    <div class="grid">
-      <div class="card">
-        <img src="https://via.placeholder.com/300x200" alt="Project 1">
-        <h3>Personal Portfolio</h3>
-        <p>A responsive personal website built with HTML, CSS, and JS.</p>
-      </div>
-      <div class="card">
-        <img src="https://via.placeholder.com/300x200" alt="Project 2">
-        <h3>Student Management App</h3>
-        <p>A simple web app to manage student profiles and grades.</p>
-      </div>
-    </div>
-  </section>
+    <h1>Welcome to My Shop</h1>
+    <p>Find the best deals on your favorite products!</p>
+  </header>
 
-  <!-- Shop Section -->
-  <section id="shop" class="section">
-    <h2>Shop My Products</h2>
-    <div class="grid">
-      <div class="product">
-        <img src="https://via.placeholder.com/200" alt="Product 1">
-        <h3>Study Planner Template</h3>
-        <p>$5.00</p>
-        <button class="buy-btn">Buy Now</button>
-      </div>
-      <div class="product">
-        <img src="https://via.placeholder.com/200" alt="Product 2">
-        <h3>Portfolio Website Code</h3>
-        <p>$10.00</p>
-        <button class="buy-btn">Buy Now</button>
-      </div>
+  <div class="container">
+    <div class="product">
+      <img src="https://via.placeholder.com/250x200" alt="Product 1">
+      <h3>Product 1</h3>
+      <p>Short description of the product.</p>
+      <div class="price">$19.99</div>
+      <button>Add to Cart</button>
     </div>
-  </section>
-  <!-- Contact -->
-  <section id="contact" class="section">
-    <h2>Contact Me</h2>
-    <p>📧 Email: <a href="mailto:georgediega9@gmail.com>you@example.com</a></p>
-    <p>🌐 Instagram: <a href="#">@yourhandle</a></p>
-  </section>
 
-  <!-- Footer -->
+    <div class="product">
+      <img src="https://via.placeholder.com/250x200" alt="Product 2">
+      <h3>Product 2</h3>
+      <p>Another awesome item for your collection.</p>
+      <div class="price">$29.99</div>
+      <button>Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="https://via.placeholder.com/250x200" alt="Product 3">
+      <h3>Product 3</h3>
+      <p>Something you’ll definitely love!</p>
+      <div class="price">$14.99</div>
+      <button>Add to Cart</button>
+    </div>
+  </div>
+
   <footer>
-    <p>© 2025 [Your Name]. Built with ❤️</p>
+    <p>&copy; 2025 My Shop. All rights reserved.</p>
   </footer>
 
-  <script src="script.js"></script>
 </body>
 </html>
